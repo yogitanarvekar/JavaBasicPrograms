@@ -10,12 +10,13 @@ public class swapTwoNumber {
         System.out.println("a = " + a);
         System.out.println("b = " + b);
 
-//        a = a + b;
-//        b = a - b;
-//        a = a - b;
-        int c = a;
-      a = b;
-      b = c;
+        a = a + b;
+        b = a - b;
+        a = a - b;
+
+//        int c = a;
+//        a = b;
+//        b = c;
 
         System.out.println("After swapping:");
         System.out.println("a = " + a);
